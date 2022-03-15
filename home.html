@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css"></link>
+    <title>Tetris</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Tetris</h1>
+        <div class="grids-layout">
+            <div class="grid"></div>
+            <div class="side-display">
+                <div class="next-grid"></div>
+                <h1>score: <span class="score">0</span></h1>
+                <button id="start-pause">Start</button>
+            </div>
+        </div>
+        <div class="gameOver-board">
+            <div>
+                <p> GAME OVER </p>
+                <p class="score">0</p>
+                <button id="start-over">Start</button>
+            </div>
+        </p>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
